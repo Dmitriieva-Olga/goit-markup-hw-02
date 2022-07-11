@@ -1,10 +1,44 @@
 .list {
     list-style: none;
- }
-.link{
-    text-decoration: none;}
-.menu-link {
-font-family: 'Roboto';
+}
+.link {
+    text-decoration: none;
+}
+        /*=========Header=====*/
+.page-heder {
+    background: #E5E5E5;
+}
+.page-nav {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+
+}
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo-color {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #060606;
+
+}
+.menu-link-studio {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -12,4 +46,64 @@ font-family: 'Roboto';
     letter-spacing: 0.02em;
 
     color: #2196F3;
+}
+
+.menu-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}
+.contact-phone {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+
+.contact-mail{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #2196F3;
+}
+
+/*=========Main=====*/
+.article {
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+
+}
+.article__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    width: 700px;
+    height: 120px;
+    top: 280px;
+    left: 455px;
+    /* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
