@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,89 +8,119 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>      
-    <nav>
-        <a class="link logo" href="" lang="en">Web<span class="logo-color">Studio</span></a>
-        <ul class="list">
-            <li class="">
-                <a class="link menu-link" href="">Студия</a>
-            </li>
-            <li class="">
-                <a class="link menu-link" href="">Портфолио</a>
-            </li>
-            <li class="">
-                <a class="link menu-link" href="">Контакты</a>
-            </li>
-        </ul>
-    </nav>
-    <div>
-        <button type="button">Все</button>
-        <button type="button">Веб-сайты</button>
-        <button type="button">Приложения</button>
-        <button type="button">Дизайн</button>
-        <button type="button">Маркетинг</button>
-        <ul class="list">
-            <li class="menu-item">
-                <img src="./images/our_services/web_site_techno_kryak.jpg" alt="ноутбук на котором отображен веб сайт">
-                <h3>Технокряк</h3>
-                <p>Веб-сайт</p>
-            </li>               
-            <li class="menu-item">
-                <img src="./images/our_services/design_poster_basket.jpg" alt="постер с баскетболистами">
-                <h3>Постер New Orlean vs Golden Star</h3>
-                <p>Дизайн</p>
-            </li>
-             <li class="menu-item">
-                <img src="./images/our_services/project_restorant_seafood.jpg" alt="логотип рыбного ресторана">
-                <h3>Ресторан Seafood</h3>
-                <p>Приложение</p>
-            </li>
-            <li class="menu-item">
-                <img src="./images/our_services/marketing_project_prime.jpg" alt="наушники для музыки">
-                <h3>Проект Prime</h3>
-                <p>Маркетинг</p>
-            </li>
-            <li class="menu-item">
-                <img src="./images/our_services/project_boxes.jpg" alt="две коробки">
-                <h3>Проект Boxes</h3>
-                <p>Приложение</p>
-            </li>
-            <li class="menu-item">
-                <img src="./images/our_services/web_site_inspiration_borders.jpg" alt="компюторный монитор">
-                <h3>Inspiration has no Borders</h3>
-                <p>Веб-сайт</p>
-            </li>
-            <li class="menu-item">
-                <img src="./images/our_services/design_edition_limited.jpg" alt="журнал">
-                <h3>Издание Limited Edition</h3>
-                <p>Дизайн</p>
-            </li>
-            <li class="menu-item">
-                <img src="./images/our_services/marketing_project_lab.jpg" alt="бирка">
-                <h3>Проект LAB</h3>
-                <p>Маркетинг</p>
-            </li>
-            <li class="menu-item">
-                <img src="./images/our_services/project_growing_business.jpg" alt="бизнес приложение изображено на экране ноутбука">
-                <h3>Growing Business</h3>
-                <p>Приложение</p>
-            </li>
-        </ul>
-    </div>
-    <div>
-        <ul class="list">
-            <li>
-                <a class="link" href="https://goo.gl/maps/pCUZM3j9BdXvzVT58" target="_blank" referrerpolicy="">г. Киев, пр-т Леси
-                    Украинки, 26</a>
-            </li>
-            <li class="link"> <a class="contact-mail" href="mailto:info@example.com">info@example.com</a></li>
-            <li class="link"> <a class="contact-phone" href="tel:+380991111111">+38 099 111 11 11</a></li>
-        </ul>
-    </div>  
-</body>
 
+<body>
+    <!--шапка сайту-->
+    <header class="page-heder">
+        <nav class="page-nav">
+            <a class="link logo" href="" lang="en">Web<span class="logo-color">Studio</span></a>
+            <ul class="menu list">
+                <li class="menu-item">
+                    <a class="menu-link link" href="./portfolio.html">Студия</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link link" href="./index.html">Портфолио</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link link" href="">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="list">
+            <li class=""><a class="contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class=""><a class="contact-phone link" href="tel:38961111111">+38 96 111 11 11</a></li>
+        </ul>
+    </header>
+    <!--Унікальний контент сторінки-->
+    <main>
+        <!--HERO-->
+        <section class="hero">
+            <h1 class="article__title">Эффективные решения для вашего бизнеса</h1>
+            <button type="submit" class="modal-btn">Заказать услугу</button>
+        </section>
+        <!--MUNU SITE-->
+        <section class="advantages">
+            <h2 hidden>Наши преимущества</h2>
+            <ul class="list">
+                <li class="menu-item">
+                    <h3 class="heading">Внимание к деталям</h3>
+                    <p class="content">Идейные соображения, а также начало повседневной работы по формированию позиции.
+                    </p>
+                </li>
+                <li class="menu-item">
+                    <h3 class="heading">Пунктуальность</h3>
+                    <p class="content">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                        собой.</p>
+                </li>
+                <li class="menu-item" class="menu-item">
+                    <h3 class="heading">Планирование</h3>
+                    <p class="content">Равным образом консультация с широким активом в значительной степени
+                        обуславливает.</p>
+                </li>
+                <li class="menu-item">
+                    <h3 class="heading">Современные технологии</h3>
+                    <p class="content">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Чем мы занимаемся</h2>
+            <ul class="list">
+                <li class="menu-item">
+                    <img src="./images/work/col_.jpg" alt="человек набирает текст на пк" width="370" height="295">
+                </li>
+                <liclass="menu-item">
+                    <img src="./images/work/mob_.jpg" alt="человек  набирает номер на телефоне" width="370"
+                        height="295">
+                    </li>
+                    <li class="menu-item">
+                        <img src="./images/work/testo_.jpg" alt="человек выбирает оттенок цвета" width="370"
+                            height="295">
+                    </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Наша команда</h2>
+            <ul class="list">
+                <li class="menu-item">
+                    <img src="./images/team/игорь_демьяненко.jpg" alt="человек улыбается" width="270" height="260">
+                    <h3>Игорь Демьяненко</h3>
+                    <p lang="en">Product Designer</p>
+                </li>
+                <li class="menu-item">
+                    <img src="./images/team/ольга_репина.jpg" alt="человек улыбается" width="270" height="260">
+                    <h3>Ольга Репина</h3>
+                    <p lang="en">Frontend Developer</p>
+                </li>
+                <li class="menu-item">
+                    <img src="./images/team/николай_тарасов.jpg" alt="человек улыбается" width="270" height="260">
+                    <h3>Николай Тарасов</h3>
+                    <p lang="en">Marketing</p>
+                </li>
+                <li class="menu-item">
+                    <img src="./images/team/михаил_ермаков.jpg" alt="человек улыбается" width="270" height="260">
+                    <h3>Михаил Ермаков</h3>
+                    <p lang="en">UI Designer</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <a class="link logo" href="./index.html" lang="en">Web<span class="logo-color">Studio</span></a>
+        <address>
+            <ul class="list">
+                <li>
+                    <a class="link" href="https://goo.gl/maps/pCUZM3j9BdXvzVT58" target="_blank" referrerpolicy="">г.
+                        Киев, пр-т Леси Украинки, 26</a>
+                </li>
+                <li class=""> <a class="contact-mail link" href="mailto:info@example.com">info@example.com</a></li>
+                <li class=""> <a class="contact-phone link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
+        </address>
+    </footer>
