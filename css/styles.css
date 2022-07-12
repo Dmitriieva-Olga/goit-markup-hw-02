@@ -2,6 +2,7 @@
     --accent-color: #212121;
     --fon-color: #2196f3;
     --back-color: #2f303a;
+  
 }
 .list {
     list-style: none;
@@ -11,10 +12,8 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-}
-body {
-    display: block;
-    margin: 8px;
+    font-size: 14px;
+    color: #212121;
 }
         /*=========Header=====*/
 .page-heder {
@@ -53,10 +52,8 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1,14px;
     letter-spacing: 0.02em;
-    color: #212121;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -66,7 +63,6 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1,14px;
     letter-spacing: 0.02em;
     
@@ -77,7 +73,6 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1,14px;
     letter-spacing: 0.02em;
     
@@ -122,26 +117,21 @@ background: #188ce8;
 .menu-item {
     font-family: 'Roboto';
     font-weight: 700;
-    font-size: 14px;
     line-height: 1,14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
 }
 .heading {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
     line-height: 1,14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
 }
 .content {
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71%;
     letter-spacing: 0.03em;
     color: #757575;
