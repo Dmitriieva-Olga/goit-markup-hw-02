@@ -165,10 +165,6 @@ color: var(--title-color);
 
 }
 
- button .current {
-    color: #FFFFFF;
-    background: #2196F3;
-}
 /* ========== PORTFOLIO ==========*/
 .push-button {
     font-family: "Roboto", sans-serif;
@@ -177,16 +173,16 @@ color: var(--title-color);
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--tekst-color);
-    background:var(--back-color);
+    color:#212121;
+    background:#f5f4fa;
     border-radius: 4px;
     border: 0;
     cursor: pointer;
 }
 .push-button:hover,
 .push-button,:focus {
-    color:var(--title-color);
-    background:var(--fon-color);
+    color: #ffffff;
+    background: #2196f3;
 }
 .portfolio-list {
     font-weight: 700;
@@ -197,10 +193,7 @@ color: var(--title-color);
 }
 .portfolio-direction {
 background:var(--title-color);
-    border: 1px solid #eeeeee;
+border: 1px solid #eeeeee;
 }
-button .current {
-    color: var(--title-color);
-    background: var(--fon-color);
-}
+
 
