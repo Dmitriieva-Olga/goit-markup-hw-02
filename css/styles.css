@@ -179,8 +179,12 @@ color: var(--title-color);
     border: 0;
     cursor: pointer;
 }
+button .current {
+    color: #ffffff;
+    background: #2196f3;
+}
 .push-button:hover,
-.push-button,:focus {
+.push-button:focus {
     color: #ffffff;
     background: #2196f3;
 }
