@@ -198,19 +198,13 @@ button .current {
 .portfolio-direction {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height:1,88px;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
-
-
-
-
-{
-
-background:var(--title-color);
-border: 1px solid #eeeeee;
+.portfolio-blocks {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
-
 
