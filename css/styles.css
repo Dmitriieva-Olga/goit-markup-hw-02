@@ -189,3 +189,13 @@ color: var(--title-color);
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--tekst-color);
+}
+.portfolio-direction {
+background:var(--title-color);
+    border: 1px solid #eeeeee;
+}
+button .current {
+    color: var(--title-color);
+    background: var(--fon-color);
+}
+
